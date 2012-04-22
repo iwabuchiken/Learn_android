@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:stretchColumns="1">
+  
+  <TableRow android:background="#003399">
+    <TextView android:text="やりたいスポーツ" android:layout_span="2" />
+    <TextView android:text="順位" />
+  </TableRow>
+  <TableRow>
+    <CheckBox />
+    <TextView android:text="スキー" />
+    <EditText />
+  </TableRow>
+  <TableRow>
+    <CheckBox />
+    <TextView android:text="スノボー" />
+    <EditText />
+  </TableRow>
+  <TableRow>
+    <CheckBox />
+    <TextView android:text="ゴルフ" />
+    <EditText />
+  </TableRow>
+  <TableRow>
+    <CheckBox />
+    <TextView android:text="水泳" />
+    <EditText />
+  </TableRow>
+  <TableRow>
+    <CheckBox />
+    <TextView android:text="マラソン" />
+    <EditText />
+  </TableRow>
+  <TableRow>
+    <CheckBox />
+    <TextView android:text="野球" />
+    <EditText />
+  </TableRow>
+  <TableRow>
+    <CheckBox />
+    <TextView android:text="サッカー" />
+    <EditText />
+  </TableRow>
+  <TableRow>
+    <CheckBox />
+    <TextView android:text="バレーボール" />
+    <EditText />
+  </TableRow>
+  
+</TableLayout>

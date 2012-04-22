@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer-array
+		name="mids_blackKey">
+		<!-- 黒鍵用リソースId -->
+		<item>@raw/c_s_4</item>
+		<item>@raw/d_s_4</item>
+		<item>@raw/f_s_4</item>
+		<item>@raw/g_s_4</item>
+		<item>@raw/a_s_4</item>
+		<item>@raw/c_s_5</item>
+		<item>@raw/d_s_5</item>
+		<item>@raw/f_s_5</item>
+	</integer-array>
+</resources>
+

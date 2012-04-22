@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- リニアレイアウト(縦並び) -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <!-- トップ画像 -->
+  <ImageView 
+    android:background="@drawable/alarm"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp" />
+    
+  <!-- 時間設定ボタン -->
+  <Button 
+    android:id="@+id/btn_time"
+    android:text="@string/btn_time"
+    android:textSize="15sp"
+    android:layout_width="200dp"
+    android:layout_height="60dp"
+    android:layout_gravity="center_horizontal" />
+    
+  <!-- アラーム音設定ボタン -->
+  <Button 
+    android:id="@+id/btn_alarm"
+    android:text="@string/btn_alarm"
+    android:textSize="15sp"
+    android:layout_width="200dp"
+    android:layout_height="60dp"
+    android:layout_gravity="center_horizontal" />
+    
+  <!-- アラームON/OFFボタン -->
+  <Button 
+    android:id="@+id/btn_onoff"
+    android:text="@string/btn_off"
+    android:textSize="15sp"
+    android:drawableBottom="@android:drawable/button_onoff_indicator_off"
+    android:layout_width="200dp"
+    android:layout_height="60dp"
+    android:layout_gravity="center_horizontal" />
+
+  <!-- 設定アラーム音表示用タイトル -->
+  <TextView
+    android:text="@string/tv_selectedAlarm_title"
+    android:textSize="15sp"
+    android:textColor="@color/grey_white"
+    android:gravity="left"
+    android:background="@color/dark_blue"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:layout_marginTop="10dp" 
+    android:layout_marginBottom="10dp"  />
+  
+  <!-- 設定アラーム音表示用テキスト -->
+  <TextView 
+    android:id="@+id/tv_selectedAlarm"
+    android:text="@string/tv_noselected"
+    android:textSize="18sp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:layout_marginBottom="5dp" />
+  
+  <!-- 設定時間表示用タイトル -->
+  <TextView
+    android:text="@string/tv_selectedTime_title"
+    android:textSize="15sp"
+    android:textColor="@color/grey_white"
+    android:gravity="left"
+    android:background="@color/dark_blue"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:layout_marginTop="10dp" 
+    android:layout_marginBottom="10dp"  />
+  
+  <!-- 設定時間表示用テキスト -->
+  <TextView 
+    android:id="@+id/tv_selectedTime"
+    android:text="@string/tv_noselected"
+    android:textSize="18sp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:layout_marginBottom="5dp" />
+   
+</LinearLayout>

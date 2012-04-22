@@ -1,0 +1,1 @@
+04-13 05:20:39.645: E/AndroidRuntime(598): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)

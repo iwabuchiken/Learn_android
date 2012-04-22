@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ImplicitIntentSample1!</string>
+    <string name="app_name">ImplicitIntentSample1</string>
+    
+    <string-array name="picture_name">
+      <item>Apple</item>
+      <item>Banana</item>
+      <item>Grape</item>
+      <item>All</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,22 @@
+04-18 05:36:21.491: E/AndroidRuntime(616): FATAL EXCEPTION: main
+04-18 05:36:21.491: E/AndroidRuntime(616): java.lang.RuntimeException: Unable to start activity ComponentInfo{play.youtube/play.youtube.PlaytubeSample4Activity}: java.lang.RuntimeException: Your content must have a ListView whose id attribute is 'android.R.id.list'
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1647)
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1663)
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at android.app.ActivityThread.access$1500(ActivityThread.java:117)
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:931)
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at android.os.Looper.loop(Looper.java:130)
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at android.app.ActivityThread.main(ActivityThread.java:3683)
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at java.lang.reflect.Method.invokeNative(Native Method)
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at java.lang.reflect.Method.invoke(Method.java:507)
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at dalvik.system.NativeStart.main(Native Method)
+04-18 05:36:21.491: E/AndroidRuntime(616): Caused by: java.lang.RuntimeException: Your content must have a ListView whose id attribute is 'android.R.id.list'
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at android.app.ListActivity.onContentChanged(ListActivity.java:243)
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:210)
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at android.app.Activity.setContentView(Activity.java:1657)
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at play.youtube.PlaytubeSample4Activity.onCreate(PlaytubeSample4Activity.java:69)
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+04-18 05:36:21.491: E/AndroidRuntime(616): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1611)
+04-18 05:36:21.491: E/AndroidRuntime(616): 	... 11 more

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer-array
+		name="mids_whiteKey">
+		<!-- 白鍵用リソースId -->
+		<item>@raw/c4</item>
+		<item>@raw/d4</item>
+		<item>@raw/e4</item>
+		<item>@raw/f4</item>
+		<item>@raw/g4</item>
+		<item>@raw/a4</item>
+		<item>@raw/b4</item>
+		<item>@raw/c5</item>
+		<item>@raw/d5</item>
+		<item>@raw/e5</item>
+		<item>@raw/f5</item>
+		<item>@raw/g5</item>
+	</integer-array>
+</resources>
+

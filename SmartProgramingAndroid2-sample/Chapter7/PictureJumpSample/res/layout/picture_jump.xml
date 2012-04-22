@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- リニアレイアウト(縦並び) -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <!-- 送受信選択メッセージ -->
+  <TextView
+    android:text="@string/picture_jump_desc"
+    android:textSize="20sp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+  <!-- 送信ボタン -->
+  <Button
+    android:id="@+id/btn_send"
+    android:text="@string/send_picture_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+  <!-- 受信ボタン -->
+  <Button
+    android:id="@+id/btn_receive"
+    android:text="@string/receive_picture_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>

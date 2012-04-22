@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 画面全体のスクロールバーの定義 -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<!-- レイアウトの定義 -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  
+  <!-- TextView(テキスト)の定義 -->
+  <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="5dp"
+      android:text="@string/textviewsample1"/>
+  
+  <!-- EditText(テキストボックス)の定義 -->
+  <EditText android:id="@+id/edittext1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"/>
+
+  <!-- CheckBox(チェックボックス)の定義 -->
+  <CheckBox android:id="@+id/checkbox1"
+      android:paddingBottom="24sp"
+      android:paddingTop="24sp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/checkboxsample1" />
+    
+  <CheckBox android:id="@+id/checkbox2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/checkboxsample2" />
+            
+  <!-- RadioButton(ラジオボタン)の定義 -->
+  <RadioGroup
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <RadioButton android:id="@+id/radiobutton1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/radiobuttonsample1" />
+
+      <RadioButton android:id="@+id/radiobutton2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/radiobuttonsample2" />
+
+  </RadioGroup>
+  
+  <!-- Spinner(選択ボックス)の定義 -->
+  <Spinner android:id="@+id/spinner1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:entries="@array/list_name"
+      android:drawSelectorOnTop="true" />
+      
+  <!-- ListView(リスト一覧)の定義 -->
+  <ListView android:id="@+id/listView1" 
+      android:paddingBottom="24sp"
+      android:paddingTop="24sp"
+      android:layout_width="fill_parent" 
+      android:layout_height="250dp" 
+      android:entries="@array/list_name" />     
+  
+  <!-- Button(ボタン)の定義 --> 
+  <Button android:id="@+id/button1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/buttonsample1"/>      
+        
+</LinearLayout>
+
+</ScrollView>
+

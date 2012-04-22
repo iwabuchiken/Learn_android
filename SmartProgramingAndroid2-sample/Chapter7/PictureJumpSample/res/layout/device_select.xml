@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- リレイティブレイアウト -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <!-- 送信デバイス情報表示用テキスト -->
+  <TextView
+    android:id="@+id/tv_device_desc"
+    android:text="@string/choose_device_desc"
+    android:textSize="18sp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true" />
+
+  <!-- 一覧表示用リストビュー -->
+  <ListView
+    android:id="@android:id/list"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tv_device_desc"
+    android:layout_above="@+id/btn_search_device" />
+
+  <!-- デバイス検索ボタン -->
+  <Button
+    android:id="@+id/btn_search_device"
+    android:text="@string/search_device_label"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

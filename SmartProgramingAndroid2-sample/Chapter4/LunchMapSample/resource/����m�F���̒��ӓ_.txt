@@ -1,0 +1,15 @@
+本サンプルアプリは、Google Map API キーを使用しています。
+そのため、アプリの動作確認を行う場合、Google Map API キーの取得を行ってください。
+
+　1.Google Map API キーの取得
+　　Googleサイトにアクセスし、APIキーを取得してください。
+
+　2.string.xmlの設定変更
+
+　　以下のファイルを開いてください。
+　　res/values/string.xml
+　
+　　api_key 要素の設定値を取得したAPIキーで書き換えてください。
+
+　3.動作確認
+　　エミュレータ、または、実機にて、GoogleMapが表示されることを確認してください。

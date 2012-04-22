@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+        
+  <!-- ボタンが押されたとき -->
+  <item android:state_pressed="true"
+        android:drawable="@drawable/btn_blue" />
+        
+  <!-- ボタンが通常のとき -->
+  <item android:drawable="@drawable/btn_lightblue" />
+      
+</selector>
+

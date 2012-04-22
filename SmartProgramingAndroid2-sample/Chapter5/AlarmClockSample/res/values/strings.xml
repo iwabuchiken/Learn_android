@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlarmClockSample</string>
+    
+    <string name="tv_selectedAlarm_title">設定アラーム音は・・・</string>
+    <string name="tv_selectedTime_title">設定時間は・・・</string>
+    <string name="tv_noselected">------------</string>
+    <string name="tv_stop_message">STOPボタンを選択</string>
+    <string name="tv_ok_message">正解！</string>
+    <string name="tv_ng_message">間違い！</string>
+      
+    <string name="btn_time">時間設定</string>
+    <string name="btn_alarm">アラーム音設定</string>
+    <string name="btn_off">アラームOFF</string>
+    <string name="btn_on">アラームON</string>
+    <string name="btn_stop">STOP</string>
+    
+    <string name="select_time">時間を選択して下さい</string>
+</resources>

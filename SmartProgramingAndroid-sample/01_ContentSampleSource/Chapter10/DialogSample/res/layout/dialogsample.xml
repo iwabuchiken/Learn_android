@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  <Button android:id="@+id/dialogButton"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="通常ダイアログ表示"/>
+   
+   <Button android:id="@+id/textDialogButton"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="テキストダイアログ表示"/>
+   
+   <Button android:id="@+id/singleSelectDialogButton"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="単一選択ダイアログ表示"/>
+      
+   <Button android:id="@+id/datePickerDialogButton"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="日付選択ダイアログ表示"/>
+      
+   <Button android:id="@+id/timePickerDialogButton"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="時間選択ダイアログ表示"/>
+      
+   <Button android:id="@+id/progressDialogButton"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="プログレスバーダイアログ表示"/>
+      
+   <TextView 
+      android:id="@+id/label_dialogtext"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"/>
+  
+</LinearLayout>

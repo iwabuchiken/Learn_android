@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  
+  <TableRow>
+    <TextView android:text="お申し込みフォーム" 
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="5dp"
+      android:layout_span="5" />
+  </TableRow>
+  <TableRow>
+    <TextView android:text="お名前："/>    
+    <TextView android:id="@+id/name" android:layout_span="4" android:width="250dp"/>
+  </TableRow>
+  <TableRow>
+    <TextView android:text="住所：" /> 
+    <TextView android:id="@+id/address" android:layout_span="4" android:width="250dp"/>   
+  </TableRow>
+  <TableRow>
+    <TextView android:text="生年月日：" android:width="75dp"/>
+    <TextView android:id="@+id/month" android:width="30dp" android:text="3"/>
+    <TextView android:text="月" />
+    <TextView android:id="@+id/day" android:width="30dp" android:text="4" />
+    <TextView android:text="日" android:width="120dp" />
+  </TableRow>
+  <TableRow>
+    <TextView android:text="性別："  />    
+    <TextView android:id="@+id/gender" android:layout_span="4" android:text="男"/>
+  </TableRow>
+  <TableRow>
+    <TableLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:stretchColumns="3"
+      android:layout_span="5" 
+      android:paddingLeft="50dp">
+      <TableRow android:background="#003399">
+        <TextView android:text="希望商品" android:width="150dp" />
+        <TextView android:text="注文数量"  />
+      </TableRow>
+      <TableRow>
+        <TextView android:text="りんご" />
+        <TextView android:id="@+id/apple" android:text="0" />
+      </TableRow>
+      <TableRow>
+        <TextView android:text="みかん" />
+        <TextView android:id="@+id/orange" android:text="0" />
+      </TableRow>
+      <TableRow>
+        <TextView android:text="もも" />
+        <TextView android:id="@+id/peach" android:text="0" />
+      </TableRow>
+  </TableLayout>
+  </TableRow>
+  <TableRow >
+    <TextView android:text="" />    
+    <Button android:id="@+id/backbutton"
+      android:layout_span="4"
+      android:width="100dp"
+      android:text="戻る"/>  
+  
+  </TableRow>
+</TableLayout>
+

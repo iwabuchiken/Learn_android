@@ -1,0 +1,47 @@
+04-07 23:42:01.900: D/gralloc_goldfish(627): Emulator without GPU emulation detected.
+04-07 23:42:25.610: D/AndroidRuntime(627): Shutting down VM
+04-07 23:42:25.610: W/dalvikvm(627): threadid=1: thread exiting with uncaught exception (group=0x409c01f8)
+04-07 23:42:25.630: E/AndroidRuntime(627): FATAL EXCEPTION: main
+04-07 23:42:25.630: E/AndroidRuntime(627): java.lang.RuntimeException: Unable to start activity ComponentInfo{example.android.intentsample1/example.android.intentsample1.SecondActivity}: java.lang.NullPointerException
+04-07 23:42:25.630: E/AndroidRuntime(627): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1956)
+04-07 23:42:25.630: E/AndroidRuntime(627): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+04-07 23:42:25.630: E/AndroidRuntime(627): 	at android.app.ActivityThread.access$600(ActivityThread.java:123)
+04-07 23:42:25.630: E/AndroidRuntime(627): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+04-07 23:42:25.630: E/AndroidRuntime(627): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-07 23:42:25.630: E/AndroidRuntime(627): 	at android.os.Looper.loop(Looper.java:137)
+04-07 23:42:25.630: E/AndroidRuntime(627): 	at android.app.ActivityThread.main(ActivityThread.java:4424)
+04-07 23:42:25.630: E/AndroidRuntime(627): 	at java.lang.reflect.Method.invokeNative(Native Method)
+04-07 23:42:25.630: E/AndroidRuntime(627): 	at java.lang.reflect.Method.invoke(Method.java:511)
+04-07 23:42:25.630: E/AndroidRuntime(627): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:784)
+04-07 23:42:25.630: E/AndroidRuntime(627): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:551)
+04-07 23:42:25.630: E/AndroidRuntime(627): 	at dalvik.system.NativeStart.main(Native Method)
+04-07 23:42:25.630: E/AndroidRuntime(627): Caused by: java.lang.NullPointerException
+04-07 23:42:25.630: E/AndroidRuntime(627): 	at example.android.intentsample1.SecondActivity.onCreate(SecondActivity.java:42)
+04-07 23:42:25.630: E/AndroidRuntime(627): 	at android.app.Activity.performCreate(Activity.java:4465)
+04-07 23:42:25.630: E/AndroidRuntime(627): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+04-07 23:42:25.630: E/AndroidRuntime(627): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+04-07 23:42:25.630: E/AndroidRuntime(627): 	... 11 more
+04-07 23:42:29.450: I/Process(627): Sending signal. PID: 627 SIG: 9
+04-07 23:45:30.740: D/gralloc_goldfish(649): Emulator without GPU emulation detected.
+04-07 23:45:32.720: D/AndroidRuntime(649): Shutting down VM
+04-07 23:45:32.720: W/dalvikvm(649): threadid=1: thread exiting with uncaught exception (group=0x409c01f8)
+04-07 23:45:32.751: E/AndroidRuntime(649): FATAL EXCEPTION: main
+04-07 23:45:32.751: E/AndroidRuntime(649): java.lang.RuntimeException: Unable to start activity ComponentInfo{example.android.intentsample1/example.android.intentsample1.SecondActivity}: java.lang.NullPointerException
+04-07 23:45:32.751: E/AndroidRuntime(649): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1956)
+04-07 23:45:32.751: E/AndroidRuntime(649): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+04-07 23:45:32.751: E/AndroidRuntime(649): 	at android.app.ActivityThread.access$600(ActivityThread.java:123)
+04-07 23:45:32.751: E/AndroidRuntime(649): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+04-07 23:45:32.751: E/AndroidRuntime(649): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-07 23:45:32.751: E/AndroidRuntime(649): 	at android.os.Looper.loop(Looper.java:137)
+04-07 23:45:32.751: E/AndroidRuntime(649): 	at android.app.ActivityThread.main(ActivityThread.java:4424)
+04-07 23:45:32.751: E/AndroidRuntime(649): 	at java.lang.reflect.Method.invokeNative(Native Method)
+04-07 23:45:32.751: E/AndroidRuntime(649): 	at java.lang.reflect.Method.invoke(Method.java:511)
+04-07 23:45:32.751: E/AndroidRuntime(649): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:784)
+04-07 23:45:32.751: E/AndroidRuntime(649): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:551)
+04-07 23:45:32.751: E/AndroidRuntime(649): 	at dalvik.system.NativeStart.main(Native Method)
+04-07 23:45:32.751: E/AndroidRuntime(649): Caused by: java.lang.NullPointerException
+04-07 23:45:32.751: E/AndroidRuntime(649): 	at example.android.intentsample1.SecondActivity.onCreate(SecondActivity.java:42)
+04-07 23:45:32.751: E/AndroidRuntime(649): 	at android.app.Activity.performCreate(Activity.java:4465)
+04-07 23:45:32.751: E/AndroidRuntime(649): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+04-07 23:45:32.751: E/AndroidRuntime(649): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+04-07 23:45:32.751: E/AndroidRuntime(649): 	... 11 more

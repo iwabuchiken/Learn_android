@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- リニアレイアウト(縦並び) -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <!-- トップ画像 -->
+  <ImageView 
+    android:background="@drawable/icon"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp" />
+    
+  <!-- 区切り線 -->
+  <TextView
+    android:background="@drawable/line"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    
+  <!-- ログイン用テキスト  -->
+  <TextView
+    android:text="@string/tv_login_request"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp" />
+  
+  <!-- ログインボタン -->
+  <Button
+    android:text="@string/btn_login"
+    android:onClick="onClickBtnLogin"
+    android:layout_width="200dp"
+    android:layout_height="60dp"
+    android:layout_gravity="center_horizontal" />
+  
+  <!-- 区切り線 -->
+  <TextView
+    android:background="@drawable/line"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    
+  <!-- タイムライン取得ボタン -->
+  <Button
+    android:text="@string/btn_timeline"  
+    android:onClick="onClickBtnTimeline"
+    android:layout_width="200dp"
+    android:layout_height="60dp"
+    android:layout_gravity="center_horizontal" />
+
+  <!-- つぶやきボタン -->
+  <Button
+    android:id="@+id/btn_tweet"
+    android:text="@string/btn_tweet"
+    android:onClick="onClickBtnTweet"
+    android:layout_width="200dp"
+    android:layout_height="60dp"
+    android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

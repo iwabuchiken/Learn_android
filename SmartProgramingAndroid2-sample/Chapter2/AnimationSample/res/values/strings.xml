@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string
+    name="app_name">AnimationSample</string>
+  <string
+    name="tv_usage">画面をタッチするとアニメーションします。</string>
+  <string-array
+    name="strary_anim_control">
+    <item>(無し)</item>
+    <item>回転</item>
+    <item>拡大縮小</item>
+    <item>移動</item>
+    <item>全部！</item>
+  </string-array>
+</resources>
+

@@ -1,0 +1,25 @@
+04-07 23:59:41.447: D/dalvikvm(620): Not late-enabling CheckJNI (already on)
+04-07 23:59:43.126: D/gralloc_goldfish(620): Emulator without GPU emulation detected.
+04-07 23:59:46.687: D/AndroidRuntime(620): Shutting down VM
+04-07 23:59:46.687: W/dalvikvm(620): threadid=1: thread exiting with uncaught exception (group=0x409c01f8)
+04-07 23:59:46.717: E/AndroidRuntime(620): FATAL EXCEPTION: main
+04-07 23:59:46.717: E/AndroidRuntime(620): java.lang.RuntimeException: Unable to start activity ComponentInfo{example.android.intentsample1/example.android.intentsample1.SecondActivity}: java.lang.NullPointerException
+04-07 23:59:46.717: E/AndroidRuntime(620): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1956)
+04-07 23:59:46.717: E/AndroidRuntime(620): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+04-07 23:59:46.717: E/AndroidRuntime(620): 	at android.app.ActivityThread.access$600(ActivityThread.java:123)
+04-07 23:59:46.717: E/AndroidRuntime(620): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+04-07 23:59:46.717: E/AndroidRuntime(620): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-07 23:59:46.717: E/AndroidRuntime(620): 	at android.os.Looper.loop(Looper.java:137)
+04-07 23:59:46.717: E/AndroidRuntime(620): 	at android.app.ActivityThread.main(ActivityThread.java:4424)
+04-07 23:59:46.717: E/AndroidRuntime(620): 	at java.lang.reflect.Method.invokeNative(Native Method)
+04-07 23:59:46.717: E/AndroidRuntime(620): 	at java.lang.reflect.Method.invoke(Method.java:511)
+04-07 23:59:46.717: E/AndroidRuntime(620): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:784)
+04-07 23:59:46.717: E/AndroidRuntime(620): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:551)
+04-07 23:59:46.717: E/AndroidRuntime(620): 	at dalvik.system.NativeStart.main(Native Method)
+04-07 23:59:46.717: E/AndroidRuntime(620): Caused by: java.lang.NullPointerException
+04-07 23:59:46.717: E/AndroidRuntime(620): 	at example.android.intentsample1.SecondActivity.onCreate(SecondActivity.java:42)
+04-07 23:59:46.717: E/AndroidRuntime(620): 	at android.app.Activity.performCreate(Activity.java:4465)
+04-07 23:59:46.717: E/AndroidRuntime(620): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+04-07 23:59:46.717: E/AndroidRuntime(620): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+04-07 23:59:46.717: E/AndroidRuntime(620): 	... 11 more
+04-07 23:59:52.747: I/Process(620): Sending signal. PID: 620 SIG: 9

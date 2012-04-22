@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <!-- リニアレイアウト(縦並び) -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <!-- 画面タイトル -->
+  <TextView
+    android:text="@string/tv_tweetupdate_title"
+    android:textSize="30sp"
+    android:textColor="@android:color/white"
+    android:gravity="center"
+    android:background="#000088"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="10dp" />
+
+  <!-- リニアレイアウト(横並び) -->
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- 文字数表示用テキスト -->
+    <TextView
+      android:text="@string/tv_charscount"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+
+    <!-- 文字数表示 -->
+    <TextView
+      android:id="@+id/tv_charscount"
+      android:text="140"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+  </LinearLayout>
+
+  <!-- つぶやき入力領域 -->
+  <EditText
+    android:id="@+id/et_tweet"
+    android:gravity="top"
+    android:layout_height="300dp"
+    android:layout_width="match_parent"
+    android:padding="5dp" />
+
+  <!-- リニアレイアウト(横並び) -->
+  <LinearLayout
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- 戻るボタン -->
+    <Button
+      android:text="@string/btn_back"
+      android:onClick="onClickBtnBack"
+      android:layout_width="100dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center_horizontal" />
+
+    <!-- つぶやくボタン -->
+    <Button
+      android:text="@string/btn_tweet"
+      android:onClick="onClickBtnTweetUpdate"
+      android:layout_width="100dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center_horizontal" />
+  </LinearLayout>
+</LinearLayout>

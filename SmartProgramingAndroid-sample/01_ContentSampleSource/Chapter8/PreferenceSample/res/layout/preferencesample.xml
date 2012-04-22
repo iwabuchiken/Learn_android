@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  <TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+    <TableRow>
+      <TextView
+        android:text="フォント:"
+        android:textSize="18sp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        
+      <Spinner
+        android:id="@+id/font"
+        android:entries="@array/fontarray"
+        android:layout_span="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </TableRow>
+    
+    <TableRow>
+      <TextView
+        android:text="スタイル:"
+        android:textSize="18sp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+          
+      <CheckBox
+        android:id="@+id/italic"
+        android:text="斜体"/>
+      <CheckBox
+        android:id="@+id/bold"
+        android:text="太字"/>
+    </TableRow>
+ 
+  </TableLayout>
+  
+  <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+    <Button android:id="@+id/save"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:text="保存"/>
+   
+   <Button android:id="@+id/display"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:text="表示"/>
+   
+   <Button android:id="@+id/delete"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:text="削除"/>
+      
+  </LinearLayout>
+  
+  <TextView
+    android:id="@+id/message"
+    android:textSize="24sp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+  
+</LinearLayout>

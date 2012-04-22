@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  <TextView android:text="お申し込みフォーム" 
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" />
+  <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+      <TextView 
+        android:text="お名前："
+        android:layout_width="70sp"
+        android:layout_height="wrap_content" />    
+      <EditText
+        android:id="@+id/name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+  </LinearLayout>
+  
+  <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+      <TextView 
+        android:text="住所："
+        android:layout_width="70sp"
+        android:layout_height="wrap_content" />
+      <EditText 
+        android:id="@+id/address"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />   
+  </LinearLayout>
+  
+  <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+      <TextView 
+        android:text="生年月日："
+        android:layout_width="70sp"
+        android:layout_height="wrap_content" />
+      <Spinner 
+        android:id="@+id/month"
+        android:entries="@array/month"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content" />
+      <TextView 
+        android:text="月"
+        android:layout_width="20sp"
+        android:layout_height="wrap_content" />
+      <Spinner 
+        android:id="@+id/day"
+       android:entries="@array/day"
+       android:layout_width="85dp"
+        android:layout_height="wrap_content" />
+      <TextView 
+        android:text="日"
+        android:layout_width="20sp"
+        android:layout_height="wrap_content" />   
+  </LinearLayout>
+  
+  <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+      <TextView 
+        android:text="性別："
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="70sp"
+        android:layout_height="wrap_content" />
+      <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <RadioButton 
+          android:id="@+id/male"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="男" />
+        <RadioButton 
+          android:id="@+id/female"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="女" />
+      </RadioGroup>   
+  </LinearLayout>
+  
+  <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="horizontal"
+      android:background="#003399"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+      <TextView 
+        android:text="希望商品"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content" />
+      <TextView 
+        android:text="注文数量"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />   
+  </LinearLayout>
+  
+   <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="horizontal"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+      <CheckBox
+        android:layout_width="50dp"
+        android:layout_height="wrap_content" />
+      <TextView 
+        android:text="りんご"
+        android:layout_width="110sp"
+        android:layout_height="wrap_content" />
+      <EditText 
+        android:id="@+id/apple"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content" />   
+  </LinearLayout>
+  
+  <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="horizontal"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+      <CheckBox
+        android:layout_width="50dp"
+        android:layout_height="wrap_content" />
+      <TextView 
+        android:text="みかん"
+        android:layout_width="110sp"
+        android:layout_height="wrap_content" />
+      <EditText 
+        android:id="@+id/orange"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content" />   
+  </LinearLayout>
+  
+  <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="horizontal"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+      <CheckBox
+        android:layout_width="50dp"
+        android:layout_height="wrap_content" />
+      <TextView 
+        android:text="もも"
+        android:layout_width="110sp"
+        android:layout_height="wrap_content" />
+      <EditText 
+        android:id="@+id/peach"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content" />   
+  </LinearLayout>
+  
+  <Button android:id="@+id/button1"
+      android:layout_gravity="center_horizontal"
+      android:layout_width="180dp"
+      android:layout_height="wrap_content"
+      android:text="送信"/>
+  
+</LinearLayout>

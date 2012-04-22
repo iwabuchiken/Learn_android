@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, firstActivity!</string>
+    <string name="app_name">IntentSample2</string>
+    
+    <string-array name="greetingarray">
+      <item>おはよう！</item>
+      <item>こんにちは！</item>
+      <item>こんばんは！</item>
+    </string-array>
+    
+</resources>

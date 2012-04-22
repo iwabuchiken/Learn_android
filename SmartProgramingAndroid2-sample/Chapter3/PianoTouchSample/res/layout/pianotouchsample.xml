@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <!-- フレームレイアウト -->
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <!-- リニアレイアウト -->
+  <LinearLayout
+    android:id="@+id/layout_key_white"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <!-- 白鍵用ボタン -->
+    <ImageButton
+      android:layout_height="150dip"
+      android:id="@+id/ibtn_c4"
+      android:background="@drawable/k_w"
+      android:layout_width="48dip" />
+
+    <ImageButton
+      android:layout_height="150dip"
+      android:id="@+id/ibtn_d4"
+      android:background="@drawable/k_w"
+      android:layout_width="48dip" />
+
+    <ImageButton
+      android:layout_height="150dip"
+      android:id="@+id/ibtn_e4"
+      android:background="@drawable/k_w"
+      android:layout_width="48dip" />
+
+    <ImageButton
+      android:layout_height="150dip"
+      android:id="@+id/ibtn_f4"
+      android:background="@drawable/k_w"
+      android:layout_width="48dip" />
+
+    <ImageButton
+      android:layout_height="150dip"
+      android:id="@+id/ibtn_g4"
+      android:background="@drawable/k_w"
+      android:layout_width="48dip" />
+
+    <ImageButton
+      android:layout_height="150dip"
+      android:id="@+id/ibtn_a4"
+      android:background="@drawable/k_w"
+      android:layout_width="48dip" />
+
+    <ImageButton
+      android:layout_height="150dip"
+      android:id="@+id/ibtn_b4"
+      android:background="@drawable/k_w"
+      android:layout_width="48dip" />
+
+    <ImageButton
+      android:layout_height="150dip"
+      android:id="@+id/ibtn_c5"
+      android:background="@drawable/k_w"
+      android:layout_width="48dip" />
+
+    <ImageButton
+      android:layout_height="150dip"
+      android:id="@+id/ibtn_d5"
+      android:background="@drawable/k_w"
+      android:layout_width="48dip" />
+
+    <ImageButton
+      android:layout_height="150dip"
+      android:id="@+id/ibtn_e5"
+      android:background="@drawable/k_w"
+      android:layout_width="48dip" />
+
+    <ImageButton
+      android:layout_height="150dip"
+      android:id="@+id/ibtn_f5"
+      android:background="@drawable/k_w"
+      android:layout_width="48dip" />
+
+    <ImageButton
+      android:layout_height="150dip"
+      android:id="@+id/ibtn_g5"
+      android:background="@drawable/k_w"
+      android:layout_width="48dip" />
+
+  </LinearLayout>
+
+  <!-- リニアレイアウト -->
+  <LinearLayout
+    android:id="@+id/layout_key_black"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <!-- 黒鍵用ボタン -->
+    <ImageButton
+      android:layout_height="80dip"
+      android:id="@+id/ibtn_c_s_4"
+      android:background="@drawable/k_b"
+      android:layout_width="24dip"
+      android:layout_marginLeft="36dip" />
+
+    <ImageButton
+      android:layout_height="80dip"
+      android:id="@+id/ibtn_d_s_4"
+      android:background="@drawable/k_b"
+      android:layout_width="24dip"
+      android:layout_marginLeft="24dip" />
+
+    <ImageButton
+      android:layout_height="80dip"
+      android:id="@+id/ibtn_f_s_4"
+      android:background="@drawable/k_b"
+      android:layout_width="24dip"
+      android:layout_marginLeft="72dip" />
+
+    <ImageButton
+      android:layout_height="80dip"
+      android:id="@+id/ibtn_g_s_4"
+      android:background="@drawable/k_b"
+      android:layout_width="24dip"
+      android:layout_marginLeft="24dip" />
+
+    <ImageButton
+      android:layout_height="80dip"
+      android:id="@+id/ibtn_a_s_4"
+      android:background="@drawable/k_b"
+      android:layout_width="24dip"
+      android:layout_marginLeft="24dip" />
+
+    <ImageButton
+      android:layout_height="80dip"
+      android:id="@+id/ibtn_c_s_5"
+      android:background="@drawable/k_b"
+      android:layout_width="24dip"
+      android:layout_marginLeft="72dip" />
+
+    <ImageButton
+      android:layout_height="80dip"
+      android:id="@+id/ibtn_d_s_5"
+      android:background="@drawable/k_b"
+      android:layout_width="24dip"
+      android:layout_marginLeft="24dip" />
+
+    <ImageButton
+      android:layout_height="80dip"
+      android:id="@+id/ibtn_f_s_5"
+      android:background="@drawable/k_b"
+      android:layout_width="24dip"
+      android:layout_marginLeft="72dip" />
+
+  </LinearLayout>
+</FrameLayout>

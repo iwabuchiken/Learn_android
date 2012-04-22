@@ -1,0 +1,20 @@
+04-08 00:40:38.874: E/AndroidRuntime(659): FATAL EXCEPTION: main
+04-08 00:40:38.874: E/AndroidRuntime(659): java.lang.RuntimeException: Unable to start activity ComponentInfo{example.android.intentsample1/example.android.intentsample1.SecondActivity}: java.lang.NullPointerException
+04-08 00:40:38.874: E/AndroidRuntime(659): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1956)
+04-08 00:40:38.874: E/AndroidRuntime(659): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1981)
+04-08 00:40:38.874: E/AndroidRuntime(659): 	at android.app.ActivityThread.access$600(ActivityThread.java:123)
+04-08 00:40:38.874: E/AndroidRuntime(659): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1147)
+04-08 00:40:38.874: E/AndroidRuntime(659): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-08 00:40:38.874: E/AndroidRuntime(659): 	at android.os.Looper.loop(Looper.java:137)
+04-08 00:40:38.874: E/AndroidRuntime(659): 	at android.app.ActivityThread.main(ActivityThread.java:4424)
+04-08 00:40:38.874: E/AndroidRuntime(659): 	at java.lang.reflect.Method.invokeNative(Native Method)
+04-08 00:40:38.874: E/AndroidRuntime(659): 	at java.lang.reflect.Method.invoke(Method.java:511)
+04-08 00:40:38.874: E/AndroidRuntime(659): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:784)
+04-08 00:40:38.874: E/AndroidRuntime(659): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:551)
+04-08 00:40:38.874: E/AndroidRuntime(659): 	at dalvik.system.NativeStart.main(Native Method)
+04-08 00:40:38.874: E/AndroidRuntime(659): Caused by: java.lang.NullPointerException
+04-08 00:40:38.874: E/AndroidRuntime(659): 	at example.android.intentsample1.SecondActivity.onCreate(SecondActivity.java:42)
+04-08 00:40:38.874: E/AndroidRuntime(659): 	at android.app.Activity.performCreate(Activity.java:4465)
+04-08 00:40:38.874: E/AndroidRuntime(659): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+04-08 00:40:38.874: E/AndroidRuntime(659): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1920)
+04-08 00:40:38.874: E/AndroidRuntime(659): 	... 11 more
